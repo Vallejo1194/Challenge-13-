@@ -39,7 +39,7 @@ validate: {
 category_id: {
 type: DataTypes.INTEGER,
 references: {
-  mode: 'Category',
+  mode: 'category',
   key: 'id',
 },
 },
